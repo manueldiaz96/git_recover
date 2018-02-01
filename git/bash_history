@@ -1,0 +1,500 @@
+git push origin_gh master
+git status
+cd .. 
+cd reflec
+cd reflections/
+nano lesson_3_reflections.txt 
+# Make sure that exactly one argument was given
+if [ $# -ne 1 ]; then     if [ $# -gt 1 ]; then         echo "$0: Got more arguments than expected.  Expected exactly 1.";     else         echo "$0: Did not receive enough arguments.  Expected exactly 1.";     fi;      echo "Usage: bash $0 <GitHub url>";     exit; fi
+cd Documents/Universidad/Decimo/HowToUseGitAndGitHub/version-control/reflections/
+nano lesson_3_reflections.txt 
+cd ..
+cd recipes/
+git branch different-oil
+git checkout different-oil 
+git commit
+subl cake-recipe.txt 
+git commit
+git add cake-recipe.txt 
+git commit
+git push origin_gh different-oil
+subl cake-recipe.txt 
+git add cake-recipe.txt ; git commit
+git push origin_gh different-oil
+cd ..
+cd reflections/
+nano lesson_3_reflections.txt 
+cd ..
+cd recipes/
+git checkout master
+cd ..
+bash sarah_changes_2.sh https://github.com/manueldiaz96/recipes
+cd recipes/
+git checkout different-oil 
+subl chili-recipe.txt 
+subl cake-recipe.txt 
+git pull origin master
+git pull origin_gh master
+git checkout different-oil 
+git merge master different-oil 
+subl cake-recipe.txt 
+git checkout master
+subl cake-recipe.txt 
+git checkout master
+git status
+git reset --hard
+git pull origin_gh master
+git reset --hard
+git checkout master
+git pull origin_gh master
+git checkout different-oil 
+git merge master different-oil 
+subl cake-recipe.txt 
+git commit
+git add cake-recipe.txt 
+git commit
+git 
+git push origin_gh different-oil
+git checkout master
+git pull origin_gh master
+git log -n 1
+cd ..
+cd reflections/
+nano lesson_3_reflections.txt 
+cd ..
+git clone https://github.com/manueldiaz96/create-your-own-adventure.git
+git clone https://github.com/manueldiaz96/create-your-own-adventure.git
+git clone https://github.com/manueldiaz96/create-your-own-adventure.git
+config --system core.longpaths true
+git config --system core.longpaths true
+git clone https://github.com/manueldiaz96/create-your-own-adventure.git
+git clone https://github.com/manueldiaz96/create-your-own-adventure.git
+cd create-your-own-adventure/
+cd english/TheEpicSax/
+nano 111_TheEpicSaxGuyArrives.md 
+nano 111_TheEpicSaxGuyArrives.md 
+nano 111_TheEpicSaxGuyArrives.md 
+git reset --hard
+git branch
+git branch goblin-sax-magic
+git checkout goblin-sax-magic 
+nano 111_TheEpicSaxGuyArrives.md 
+git push origin goblin-sax-magic 
+git add 111_TheEpicSaxGuyArrives.md 
+git status
+git commit
+git push origin goblin-sax-magic 
+cd ..
+cd bird
+cd birdistheword/
+nano birdistheword.md 
+nano 111_TheEpicSaxGuyArrives.md 
+cd ..
+cd TheEpicSax/
+nano 111_TheEpicSaxGuyArrives.md 
+
+git commit
+git push origin goblin-sax-magic 
+nano 111_TheEpicSaxGuyArrives.md 
+cd Documents/Universidad/Decimo/HowToUseGitAndGitHub/version-control/create-your-own-adventure/english/TheEpicSax
+nano 111_TheEpicSaxGuyArrives.md 
+clear
+clear
+git status
+git add 111_TheEpicSaxGuyArrives.md ; git commit
+git push origin goblin-sax-magic 
+nano 111_TheEpicSaxGuyArrives.md 
+nano 111_TheEpicSaxGuyArrives.md 
+cd ..
+cd ..
+cd espanol/
+nano canudos.md 
+cd ..
+cd Documents/Universidad/Decimo/HowToUseGitAndGitHub/version-control/create-your-own-adventure/english/TheEpicSax
+clear
+cd english/
+cd TheEpicSax/
+nano 111_TheEpicSaxGuyArrives.md 
+GIT ADD 111_TheEpicSaxGuyArrives.md 
+git add 111_TheEpicSaxGuyArrives.md 
+git commit 
+git push origin goblin-sax-magic 
+nano 111_TheEpicSaxGuyArrives.md 
+git add 111_TheEpicSaxGuyArrives.md 
+git commit 
+git push origin goblin-sax-magic 
+nano 111_TheEpicSaxGuyArrives.md 
+git add 111_TheEpicSaxGuyArrives.md 
+git commit 
+git push origin goblin-sax-magic 
+cd Documents/Universidad/Decimo/MachineLearning/
+ls
+git clone https://github.com/udacity/ud120-projects.git
+cd ud120-projects/
+git log
+cd tools/
+ls
+python startup.py 
+subl startup.py 
+git add startup.py 
+git commit
+git remote rm origin
+git remote origin https://github.com/manueldiaz96/ud120-projects
+git remote add origin https://github.com/manueldiaz96/ud120-projects
+git remote
+git log
+git push origin master
+python startup.py
+subl startup.py 
+python startup.py
+subl startup.py 
+python startup.py
+cd ..
+ls -lthr
+ls -lthr
+ls -lthr
+ls -lthr
+ls -lthr
+
+
+ls -lthr
+ls -lthr
+ls -lthr
+cd Documents/Universidad/Decimo/MachineLearning/
+cd ud120-projects/
+git status
+git checkout -- tools/startup.py
+git status
+git checkout -- tools/email_preprocess.py
+git status
+clear
+clear
+clear
+git status
+git add naive_bayes/nb_author_id.py 
+git commit
+git push origin 
+git remote
+git push origin master
+D:E:ls
+cd Tesis/
+ls
+cd LearningCPP/
+ls
+cd Try1
+clear
+cmake .
+cmake .
+cmake .
+clear
+cmake .
+./sample
+./Try1
+ls
+git 
+git init
+git log
+ls
+git add .
+git status
+git status
+git commit
+git log
+git remote add origin https://github.com/manueldiaz96/LearningCPP.git
+git push origin master
+nano Name_in_a_box.txt 
+git add Name_in_a_box.txt 
+git status
+git commit
+git push origin master
+git log
+git log
+git diff 736b909ec74785026f1f108b755872375bfc6f0b
+cleat
+clear
+git add Using_TwoNames.txt 
+git commit
+git push origin master
+git config --global core.editor subl
+git init
+git add .
+git status
+git commit
+
+git commit
+git remote add git remote add origin https://github.com/manueldiaz96/git_recover.git
+git remote add origin https://github.com/manueldiaz96/git_recover.git
+git push
+git push origin master
+git add .bash_profile 
+git commit
+git reset --hard
+git status
+git add Commands_for_configuration.txt 
+git commit 
+git push origin master
+git pull
+git pull origin master
+git log
+git clone https://github.com/udacity/ud120-projects.git
+cd Documents/Universidad/
+ls
+git pull origin
+git cd Git_backup/
+diff game_new.js game_old.js 
+git log
+git log
+clear
+cd Git_backup/
+git pull origin
+git log
+git pull
+git log
+git remote
+git pull
+git pull origin master
+git log
+git add cheat_sheet.txt 
+git status
+git commit
+git log
+git push origin master
+cd ..
+git clone https://github.com/manueldiaz96/git_class
+cd git_class/
+git log
+git remote
+clea
+clear
+git add .
+git status
+git commit
+git log
+git config -list
+git config --list
+git help credential
+clear
+git log
+clear
+clear
+git push origin
+git add settings/Commands_for_configuration.txt 
+git status
+git status
+git checkout master
+git status
+git diff
+git log
+git checkout d3a18f7ed2fb4496c7175947f2cf1ccd0e21e015
+git log
+git checkout master
+git reset
+git status
+git reset --hard
+git log
+git show d3a18f7ed2fb4496c7175947f2cf1ccd0e21e015
+clear
+clear
+git status
+git status
+git add .
+git status
+git status
+add .
+git add .
+git status
+git commit
+git log
+git diff 4aff4dbdd5e1b85fc25cfa7666e0befc67878536 d3a18f7ed2fb4496c7175947f2cf1ccd0e21e015
+clear
+cleat
+clear
+git push origin master
+diff resources/FileCompare/game_old.js diff resources/FileCompare/game_new.js 
+cd resources/FileCompare/
+diff game_old.js game_new.js
+git diff game_old.js game_new.js
+git status
+cd ..
+cd ..
+git status
+git add resources
+git status
+git reset
+git status
+git add settings/git-completion.bash 
+git add settings/git-prompt.sh 
+git commit
+git status
+git add resources/
+git status
+git commit
+git log
+git status
+git push origin
+master
+git status
+clear
+clear
+git add resources/PS2X_project/PS2X_project.ino 
+git status
+git commit
+git log
+git add resources/PS2X_project/PS2X_project.ino 
+git status
+git add resources/PS2X_project/PS2X_project.ino 
+git status
+git commit 
+git log
+git status
+git add resources/PS2X_project/PS2X_project.ino 
+git commit
+git status
+git log
+git add resources/PS2X_project/PS2X_project.ino 
+git status
+git commit
+git log
+git add resources/PS2X_project/PS2X_project.ino 
+git status
+git commit
+git log
+git diff 28916280cb5641063c819d83e601130b2ddd486d 4b2a4144f81c47c644d73e2504dae3385990a48b
+git diff 4b2a4144f81c47c644d73e2504dae3385990a48b 93c316e33c3ef0fd5b3cdce73fa3def5dffa3dd4
+git diff 93c316e33c3ef0fd5b3cdce73fa3def5dffa3dd4 4b2a4144f81c47c644d73e2504dae3385990a48b
+git log
+git log
+git diff c7221 8cd00e
+clear
+clear
+git status
+git add cheat_sheets/mine-git-cheat-sheet.txt 
+git commit
+git push origin master
+git log
+git init
+git add .
+git add .
+git commit
+git add remote origin https://bitbucket.org/manueldiaz96/git_presentation
+git remote add origin https://bitbucket.org/manueldiaz96/git_presentation
+git push origin master
+git
+git tag firstRepo
+git log
+git tag -d firstRepo
+git status
+git add .
+git reset
+git status
+git status
+git log
+git branch
+git checkout different-oil 
+git log
+git checkout master
+git log --graph --oneline master different-oil
+git log --graph --oneline master different-oil
+git branch -d different-oil
+git log --graph --oneline master different-oil
+git branch leche-asada
+git branch
+git checkout leche-asada 
+nano
+ls
+nano chili-recipe.txt 
+nano chili-recipe.txt 
+git add leche-asada.txt 
+git reset leche-asada.txt
+git reset chili-recipe.txt
+git add leche-asada.txt 
+git commit 
+git log
+git add chili-recipe.txt 
+git status
+git commit
+git branch
+git checkout master
+git merge master leche_asada
+git merge master leche_asada
+git merge master leche-asada
+git log
+git log --graph --oneline branch_a branch_b
+git log --graph --oneline master leche-asada
+git add leche-asada.txt 
+git commit 
+git log --graph --oneline master leche-asada
+git log --graph --oneline different-oil master
+git log --graph --oneline master different-oil 
+git branch leche-asada
+git checkout leche-asada 
+git add leche-asada.txt 
+git commit
+git checkout master
+git add chili-recipe.txt 
+git commit 
+git checkout leche asada
+
+git checkout master
+git diff leche-asada master
+clear
+git checkout leche asada
+clear
+clear
+git merge master leche-asada
+git log --graph --oneline master leche-asada
+git branch leche-asada
+git checkout leche-asada 
+git add leche-asada.txt 
+git commit
+git log
+nano chili-recipe.txt 
+nano chili-recipe.txt 
+git add chili-recipe.txt 
+git commit
+git checkout master
+nano chili-recipe.txt 
+git add chili-recipe.txt 
+git commit
+git merge master leche-asada
+git status
+git add chili-recipe.txt 
+git commit
+git log --graph --oneline master leche-asada
+git show master
+git show leche-asada
+clear
+clear
+cd ..
+cd git_class/
+git add resources/leche-asada.txt 
+git commit 
+git push origin master
+git log
+clear
+clear
+cd ..
+cd Git_presentation/
+git status
+git add .
+git commit
+git push origin master
+cd ..
+cd git_class/
+git --version
+grep kali-linux-2016.2-amd64.iso kali-linux-2016.2-amd64.txt.sha256sum | shasum -a 256 -c
+ls
+grep kali-linux-2017.3-amd64.iso kali-linux-2017.3-amd64.txt.sha256sum | shasum -a 256 -c
+grep kali-linux-2017.3-amd64.iso kali-linux-2017.3-amd64.txt.sha256sum | shasum -a 256 -c
+grep kali-linux-2017.3-amd64.iso kali-linux-2017.3-amd64.txt.sha256sum | shasum -a 256 -c
+grep kali-linux-2017.3-amd64.iso kali-linux-2017.3-amd64.txt.sha256sum | shasum -a 256 -c
+clear
+clear
+ls
+grep kali-linux-2017.3-amd64.iso kali-linux-2017.3-amd64.txt.sha256sum | shasum -a 256 -c
+grep kali-linux-2017.3-amd64.iso kali-linux-2017.3-amd64.txt.sha256sum | shasum -a 256 -c
+cd ..
+grep kali-linux-2017.3-amd64.iso kali-linux-2017.3-amd64.txt.sha256sum | shasum -a 256 -c
+cd kali-linux-2017.3-amd64/
+grep kali-linux-2017.3-amd64.iso kali-linux-2017.3-amd64.txt.sha256sum | shasum -a 256 -c
+git status
